@@ -39,7 +39,11 @@ h2 {
     rgb(215, 171, 97) 0px 0px 0px 6px, rgb(224, 98, 54) 0px 0px 0px 9px,
     rgb(200, 35, 55) 0px 0px 0px 12px;
 }
-
+.homepage {
+  color: black;
+  text-decoration: none;
+  opacity: 1;
+}
 .city {
   display: flex;
   justify-content: space-between;
