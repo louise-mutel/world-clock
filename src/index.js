@@ -1,21 +1,32 @@
 function updateTime() {
-  let losAngelesElement = document.querySelector("#los-angeles");
-  if (losAngelesElement) {
-    let losAngelesDateElement = losAngelesElement.querySelector(".date");
-    let losAngelesTimeElement = losAngelesElement.querySelector(".time");
-    let losAngelesTime = moment().tz("America/Los_Angeles");
-    losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do YYYY");
-    losAngelesTimeElement.innerHTML = losAngelesTime.format(
+  let reykjavikElement = document.querySelector("#reykjavik");
+  if (reykjavikElement) {
+    let reykjavikDateElement = reykjavikElement.querySelector(".date");
+    let reykjavikTimeElement = reykjavikElement.querySelector(".time");
+    let reykjavikTime = moment().tz("Atlantic/Reykjavik");
+    reykjavikDateElement.innerHTML = reykjavikTime.format("MMMM Do YYYY");
+    reykjavikTimeElement.innerHTML = reykjavikTime.format(
       "h:mm:ss [<small>]A[</small>]"
     );
   }
-  let parisElement = document.querySelector("#paris");
-  if (parisElement) {
-    let parisDateElement = parisElement.querySelector(".date");
-    let parisTimeElement = parisElement.querySelector(".time");
-    let parisTime = moment().tz("Europe/Paris");
-    parisDateElement.innerHTML = parisTime.format("MMMM Do YYYY");
-    parisTimeElement.innerHTML = parisTime.format(
+  let belemElement = document.querySelector("#belem");
+  if (belemElement) {
+    let belemDateElement = belemElement.querySelector(".date");
+    let belemTimeElement = belemElement.querySelector(".time");
+    let belemTime = moment().tz("America/Belem");
+    belemDateElement.innerHTML = belemTime.format("MMMM Do YYYY");
+    belemTimeElement.innerHTML = belemTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
+
+  let damascusElement = document.querySelector("#damascus");
+  if (damascusElement) {
+    let damascusDateElement = damascusElement.querySelector(".date");
+    let damascusTimeElement = damascusElement.querySelector(".time");
+    let damascusTime = moment().tz("Asia/Damascus");
+    damascusDateElement.innerHTML = damascusTime.format("MMMM Do YYYY");
+    damascusTimeElement.innerHTML = damascusTime.format(
       "h:mm:ss [<small>]A[</small>]"
     );
   }
