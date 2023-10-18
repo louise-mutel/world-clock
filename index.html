@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Crimson+Pro:wght@200;300;400;500&family=Libre+Franklin:wght@400;900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@200;300;400;500;600;700;800;900&family=Crimson+Pro:wght@200;300;400;500&family=Libre+Franklin:wght@200;300;400;500;600;700;800;900&display=swap");
     </style>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock by Louise Mutel</title>
   </head>
   <body>
@@ -20,19 +21,19 @@
         <option value="">Vancouver</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="los-angeles">
         <div>
           <h2>LOS ANGELES</h2>
-          <div class="date">October 18th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">10:52 <small>AM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="paris">
         <div>
           <h2>PARIS</h2>
-          <div class="date">October 18th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">10:52 <small>AM</small></div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>

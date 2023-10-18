@@ -7,8 +7,8 @@ body {
 
 h1 {
   font-family: "Cabin", sans-serif;
-  font-size: 50px;
-  font: weight 600px;
+  font-size: 60px;
+  font-weight: 600px;
   margin: 10px 20px 20px;
 }
 select {
@@ -25,7 +25,7 @@ select {
 h2 {
   margin: 0 0 3px;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -53,6 +53,7 @@ h2 {
 
 .date {
   font-family: "Crimson Pro", serif;
+  font-size: 18px;
   text-align: left;
   opacity: 0.6;
 }
@@ -60,13 +61,14 @@ h2 {
 .time {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  font-weight: 900px;
+  font-weight: bolder;
 }
 
 .time small {
   font-size: 25px;
   vertical-align: middle;
 }
+
 footer {
   color: rgba(228, 229, 229, 0.6);
   margin: 15px;
